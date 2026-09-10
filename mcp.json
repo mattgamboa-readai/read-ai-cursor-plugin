@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "read-ai": {
+      "url": "https://api.read.ai/mcp"
+    }
+  }
+}
