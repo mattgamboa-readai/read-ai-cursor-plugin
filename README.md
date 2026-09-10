@@ -52,3 +52,7 @@ You can also add the remote server manually while the listing is in review:
 ## License
 
 MIT
+
+## Other clients
+
+Install kits for Cline, VS Code, Replit, Windsurf, and the GitHub/MCP Registry: see [CLIENTS.md](./CLIENTS.md).
