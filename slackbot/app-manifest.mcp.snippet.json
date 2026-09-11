@@ -1,5 +1,4 @@
 {
-  "_comment": "Merge into the existing Read AI Slack app manifest. Prefer DCR; switch auth_type to manual_auth + external_auth_providers if DCR is unavailable for Slack.",
   "oauth_config": {
     "scopes": {
       "bot": ["mcp:connect"]
