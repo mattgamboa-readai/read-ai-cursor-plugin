@@ -42,8 +42,6 @@ Hosted server: `https://api.read.ai/mcp` (Streamable HTTP, OAuth). Same backend 
 }
 ```
 
-(Confirm field name against current Windsurf docs — some builds use `url` instead of `serverUrl`.)
-
 ### VS Code (user / workspace MCP settings)
 
 ```json
@@ -59,7 +57,7 @@ Hosted server: `https://api.read.ai/mcp` (Streamable HTTP, OAuth). Same backend 
 
 ## Official MCP Registry / GitHub
 
-`server.json` targets namespace `io.github.Read-AI-Inc/read-ai` (GitHub auth via the org). Prefer `com.read.ai/mcp` later with DNS verification on `read.ai`.
+`server.json` targets namespace `io.github.Read-AI-Inc/read-ai` (GitHub auth via the org).
 
 ```bash
 # from this repo
@@ -67,7 +65,3 @@ curl -L "https://github.com/modelcontextprotocol/registry/releases/latest/downlo
 ./mcp-publisher login github
 ./mcp-publisher publish
 ```
-
-## Developer account aliases (Read AI process)
-
-Per internal 3PI docs: provision `<provider>-integration@read.ai` when a portal needs a dedicated contact email (`cline-integration@`, `vscode-integration@`, `replit-integration@`, `windsurf-integration@`, `github-integration@`).
